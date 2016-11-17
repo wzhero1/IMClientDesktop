@@ -1,0 +1,239 @@
+<----------------
+Write Packet Start
+
+Packet:LogInPacket
+key:16 bytes
+    B2 02 2D 2B 23 15 65 7E 8D C2 13 B9 0D 1D DC B0 
+username:bbbb
+passwordHash:32 bytes
+B1 0F 8B 04 68 71 C9 2C 30 15 98 13 B6 D9 12 F2 
+F0 FD 5D BE 56 5C CE AE D3 5C 60 1B 95 F3 4F AA 
+
+Head:
+  TypeNumber:0x01010200
+  ID:0x8DE1C3A8
+
+Data:64bytes
+01 01 02 00 8D E1 C3 A8 B2 02 2D 2B 23 15 65 7E 
+8D C2 13 B9 0D 1D DC B0 00 00 00 04 62 62 62 62 
+B1 0F 8B 04 68 71 C9 2C 30 15 98 13 B6 D9 12 F2 
+F0 FD 5D BE 56 5C CE AE D3 5C 60 1B 95 F3 4F AA 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:10bytes
+01 01 02 00 8D E1 C3 A8 03 04 
+
+Head:
+  TypeNumber:0x01010200
+  ID:0x8DE1C3A8
+
+Packet:LogInPacket
+Failure
+
+Read Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:GetVerificationCodePacket
+key:16 bytes
+    AE 90 1A 90 2C 1C CE 0F 60 B1 41 1E 00 48 DC 56 
+username:bbbb
+useEmail:1
+phone:12345678910
+email:417136043@qq.com
+
+Head:
+  TypeNumber:0x01010100
+  ID:0xFDE42ED8
+
+Data:64bytes
+01 01 01 00 FD E4 2E D8 AE 90 1A 90 2C 1C CE 0F 
+60 B1 41 1E 00 48 DC 56 00 00 00 04 62 62 62 62 
+01 31 32 33 34 35 36 37 38 39 31 30 00 00 00 10 
+34 31 37 31 33 36 30 34 33 40 71 71 2E 63 6F 6D 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:10bytes
+01 01 01 00 FD E4 2E D8 00 00 
+
+Head:
+  TypeNumber:0x01010100
+  ID:0xFDE42ED8
+
+Packet:GetVerificationCodePacket
+
+Read Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:SignUpPacket
+key:16 bytes
+    C2 F0 66 C4 64 84 8F FB 44 F0 84 4E 7B A6 E5 9B 
+username:bbbb
+password:32 bytes
+B1 0F 8B 04 68 71 C9 2C 30 15 98 13 B6 D9 12 F2 
+F0 FD 5D BE 56 5C CE AE D3 5C 60 1B 95 F3 4F AA 
+nickname:bbbb
+avatar:891 bytes
+89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 
+00 00 00 64 00 00 00 64 08 06 00 00 00 70 E2 95 
+54 00 00 03 42 49 44 41 54 78 DA ED 9C EB 6A C2 
+40 10 85 FB FE CF A1 A0 28 88 82 82 97 67 6B DA 
+23 4C 59 42 43 D4 64 66 CE 66 CF 8F 53 B1 4A B4 
+F9 3A 3B 97 9D D9 AF C7 E3 F1 2D F1 E8 0B 3F EE 
+F7 7B 77 BB DD 24 02 09 88 80 48 02 22 20 92 80 
+08 88 24 20 02 22 09 88 80 08 88 80 48 02 22 20 
+92 80 08 88 24 20 02 22 09 88 80 08 88 80 48 02 
+22 20 DE BA 5E AF DD E5 72 F9 13 9E 0B 48 A0 70 
+phone:01234567890
+email:417136043@qq.com
+code:5425
+
+Head:
+  TypeNumber:0x01010101
+  ID:0x447A569A
+
+Data:1002bytes
+01 01 01 01 44 7A 56 9A C2 F0 66 C4 64 84 8F FB 
+44 F0 84 4E 7B A6 E5 9B 00 00 00 04 62 62 62 62 
+B1 0F 8B 04 68 71 C9 2C 30 15 98 13 B6 D9 12 F2 
+F0 FD 5D BE 56 5C CE AE D3 5C 60 1B 95 F3 4F AA 
+00 00 00 04 62 62 62 62 00 00 03 7B 89 50 4E 47 
+0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 64 
+00 00 00 64 08 06 00 00 00 70 E2 95 54 00 00 03 
+42 49 44 41 54 78 DA ED 9C EB 6A C2 40 10 85 FB 
+FE CF A1 A0 28 88 82 82 97 67 6B DA 23 4C 59 42 
+43 D4 64 66 CE 66 CF 8F 53 B1 4A B4 F9 3A 3B 97 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:10bytes
+01 01 01 01 44 7A 56 9A 00 00 
+
+Head:
+  TypeNumber:0x01010101
+  ID:0x447A569A
+
+Packet:SignUpPacket
+
+Read Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:GetVerificationCodePacket
+key:16 bytes
+    72 15 50 CA DF D8 1E 0F 75 29 A9 38 FD E4 4B 71 
+username:cccc
+useEmail:1
+phone:12345678910
+email:wzhero1@126.com
+
+Head:
+  TypeNumber:0x01010100
+  ID:0xD1450171
+
+Data:63bytes
+01 01 01 00 D1 45 01 71 72 15 50 CA DF D8 1E 0F 
+75 29 A9 38 FD E4 4B 71 00 00 00 04 63 63 63 63 
+01 31 32 33 34 35 36 37 38 39 31 30 00 00 00 0F 
+77 7A 68 65 72 6F 31 40 31 32 36 2E 63 6F 6D 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:10bytes
+01 01 01 00 D1 45 01 71 00 00 
+
+Head:
+  TypeNumber:0x01010100
+  ID:0xD1450171
+
+Packet:GetVerificationCodePacket
+
+Read Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:SignUpPacket
+key:16 bytes
+    8A 4E 03 D5 C7 E4 37 A3 63 45 63 F3 87 A3 56 44 
+username:cccc
+password:32 bytes
+7D B1 DC 04 7D 8A F6 F9 3E B8 23 3E F1 86 88 89 
+D0 FD 05 2E C9 F0 43 8B 69 79 5E 6E 93 07 0F F5 
+nickname:cccc
+avatar:891 bytes
+89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 
+00 00 00 64 00 00 00 64 08 06 00 00 00 70 E2 95 
+54 00 00 03 42 49 44 41 54 78 DA ED 9C EB 6A C2 
+40 10 85 FB FE CF A1 A0 28 88 82 82 97 67 6B DA 
+23 4C 59 42 43 D4 64 66 CE 66 CF 8F 53 B1 4A B4 
+F9 3A 3B 97 9D D9 AF C7 E3 F1 2D F1 E8 0B 3F EE 
+F7 7B 77 BB DD 24 02 09 88 80 48 02 22 20 92 80 
+08 88 24 20 02 22 09 88 80 08 88 80 48 02 22 20 
+92 80 08 88 24 20 02 22 09 88 80 08 88 80 48 02 
+22 20 DE BA 5E AF DD E5 72 F9 13 9E 0B 48 A0 70 
+phone:01234567890
+email:wzhero1@126.com
+code:1254
+
+Head:
+  TypeNumber:0x01010101
+  ID:0x6FECF35F
+
+Data:1001bytes
+01 01 01 01 6F EC F3 5F 8A 4E 03 D5 C7 E4 37 A3 
+63 45 63 F3 87 A3 56 44 00 00 00 04 63 63 63 63 
+7D B1 DC 04 7D 8A F6 F9 3E B8 23 3E F1 86 88 89 
+D0 FD 05 2E C9 F0 43 8B 69 79 5E 6E 93 07 0F F5 
+00 00 00 04 63 63 63 63 00 00 03 7B 89 50 4E 47 
+0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 64 
+00 00 00 64 08 06 00 00 00 70 E2 95 54 00 00 03 
+42 49 44 41 54 78 DA ED 9C EB 6A C2 40 10 85 FB 
+FE CF A1 A0 28 88 82 82 97 67 6B DA 23 4C 59 42 
+43 D4 64 66 CE 66 CF 8F 53 B1 4A B4 F9 3A 3B 97 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:10bytes
+01 01 01 01 6F EC F3 5F 01 10 
+
+Head:
+  TypeNumber:0x01010101
+  ID:0x6FECF35F
+
+Packet:SignUpPacket
+Failure
+
+Read Packet End
+---------------->
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Filters.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/Filters.jar!/"/>
+	</lib>
+	<lib name="miglayout-4.0-swing.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/miglayout-4.0-swing.jar!/"/>
+	</lib>
+	<lib name="jna-4.2.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jna-4.2.2.jar!/"/>
+	</lib>
+	<lib name="junit-4.12.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/"/>
+	</lib>
+	<lib name="streamsupport-1.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/streamsupport-1.5.jar!/"/>
+	</lib>
+	<lib name="streamsupport-atomic-1.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/streamsupport-atomic-1.5.jar!/"/>
+	</lib>
+	<lib name="streamsupport-cfuture-1.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/streamsupport-cfuture-1.5.jar!/"/>
+	</lib>
+	<lib name="streamsupport-flow-1.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/streamsupport-flow-1.5.jar!/"/>
+	</lib>
+	<lib name="streamsupport-literal-1.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/streamsupport-literal-1.5.jar!/"/>
+	</lib>
+	<lib name="dom4j-1.6.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/"/>
+	</lib>
+	<lib name="Sm234.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/Sm234.jar!/"/>
+	</lib>
+	<lib name="IMClientProto.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/IMClientProto.jar!/"/>
+	</lib>
+	<lib name="IMClientService.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/IMClientService.jar!/"/>
+	</lib>
+</component>

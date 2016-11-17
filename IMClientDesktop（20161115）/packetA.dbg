@@ -1,0 +1,285 @@
+<----------------
+Write Packet Start
+
+Packet:GetVerificationCodePacket
+key:16 bytes
+    21 CD C1 3E 3D FF 54 28 12 89 33 F7 94 06 9E 0A 
+username:aaaa
+useEmail:1
+phone:12345678910
+email:wzhero1@126.com
+
+Head:
+  TypeNumber:0x01010100
+  ID:0xC10F1505
+
+Data:63bytes
+01 01 01 00 C1 0F 15 05 21 CD C1 3E 3D FF 54 28 
+12 89 33 F7 94 06 9E 0A 00 00 00 04 61 61 61 61 
+01 31 32 33 34 35 36 37 38 39 31 30 00 00 00 0F 
+77 7A 68 65 72 6F 31 40 31 32 36 2E 63 6F 6D 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:10bytes
+01 01 01 00 C1 0F 15 05 00 00 
+
+Head:
+  TypeNumber:0x01010100
+  ID:0xC10F1505
+
+Packet:GetVerificationCodePacket
+
+Read Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:ResetPasswordPacket
+key:16 bytes
+    FE 8C 88 44 C3 CD 58 36 CA 53 0C A7 EB 86 9C 84 
+username:aaaa
+password:32 bytes
+AB CB 5E 95 8B A2 FE 41 52 8D 4A 0A 5D 16 A1 FF 
+D8 9E AE 0F CA 8C 27 C3 68 FD BC 37 1E 4F AC FA 
+phone:12345678901
+email:wzhero1@126.com
+code:7039
+
+Head:
+  TypeNumber:0x01010301
+  ID:0x13EAC796
+
+Data:98bytes
+01 01 03 01 13 EA C7 96 FE 8C 88 44 C3 CD 58 36 
+CA 53 0C A7 EB 86 9C 84 00 00 00 04 61 61 61 61 
+AB CB 5E 95 8B A2 FE 41 52 8D 4A 0A 5D 16 A1 FF 
+D8 9E AE 0F CA 8C 27 C3 68 FD BC 37 1E 4F AC FA 
+31 32 33 34 35 36 37 38 39 30 31 00 00 00 0F 77 
+7A 68 65 72 6F 31 40 31 32 36 2E 63 6F 6D 37 30 
+33 39 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:10bytes
+01 01 03 01 13 EA C7 96 00 00 
+
+Head:
+  TypeNumber:0x01010301
+  ID:0x13EAC796
+
+Packet:ResetPasswordPacket
+
+Read Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:LogInPacket
+key:16 bytes
+    40 50 27 9D 10 30 5B 7C 5D A9 23 4B 88 1A E7 7A 
+username:aaaa
+passwordHash:32 bytes
+AB CB 5E 95 8B A2 FE 41 52 8D 4A 0A 5D 16 A1 FF 
+D8 9E AE 0F CA 8C 27 C3 68 FD BC 37 1E 4F AC FA 
+
+Head:
+  TypeNumber:0x01010200
+  ID:0x1F825928
+
+Data:64bytes
+01 01 02 00 1F 82 59 28 40 50 27 9D 10 30 5B 7C 
+5D A9 23 4B 88 1A E7 7A 00 00 00 04 61 61 61 61 
+AB CB 5E 95 8B A2 FE 41 52 8D 4A 0A 5D 16 A1 FF 
+D8 9E AE 0F CA 8C 27 C3 68 FD BC 37 1E 4F AC FA 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:14bytes
+01 01 02 00 1F 82 59 28 00 00 00 00 13 29 
+
+Head:
+  TypeNumber:0x01010200
+  ID:0x1F825928
+
+Packet:LogInPacket
+userId:4905
+
+Read Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:UserIdPacket
+userId:4905
+
+Head:
+  TypeNumber:0x01030600
+  ID:0xC5359868
+
+Data:12bytes
+01 03 06 00 C5 35 98 68 00 00 13 29 
+
+Write Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:EmptyPacket
+
+Head:
+  TypeNumber:0x01030400
+  ID:0x37EC7C89
+
+Data:8bytes
+01 03 04 00 37 EC 7C 89 
+
+Write Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:EmptyPacket
+
+Head:
+  TypeNumber:0x01040500
+  ID:0x147937F6
+
+Data:8bytes
+01 04 05 00 14 79 37 F6 
+
+Write Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:EmptyPacket
+
+Head:
+  TypeNumber:0x01050800
+  ID:0x4119811F
+
+Data:8bytes
+01 05 08 00 41 19 81 1F 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:925bytes
+01 03 06 00 C5 35 98 68 00 00 00 00 00 04 61 61 
+61 61 00 00 00 04 61 61 61 61 00 00 03 7B 89 50 
+4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 
+00 64 00 00 00 64 08 06 00 00 00 70 E2 95 54 00 
+00 03 42 49 44 41 54 78 DA ED 9C EB 6A C2 40 10 
+85 FB FE CF A1 A0 28 88 82 82 97 67 6B DA 23 4C 
+59 42 43 D4 64 66 CE 66 CF 8F 53 B1 4A B4 F9 3A 
+3B 97 9D D9 AF C7 E3 F1 2D F1 E8 0B 3F EE F7 7B 
+77 BB DD 24 02 09 88 80 48 02 22 20 92 80 08 88 
+24 20 02 22 09 88 80 08 88 80 48 02 22 20 92 80 
+
+Head:
+  TypeNumber:0x01030600
+  ID:0xC5359868
+
+Packet:UserIdPacket
+data:UserElem:
+    username:aaaa
+nickname:aaaa
+avatar:891 bytes
+89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 
+00 00 00 64 00 00 00 64 08 06 00 00 00 70 E2 95 
+54 00 00 03 42 49 44 41 54 78 DA ED 9C EB 6A C2 
+40 10 85 FB FE CF A1 A0 28 88 82 82 97 67 6B DA 
+23 4C 59 42 43 D4 64 66 CE 66 CF 8F 53 B1 4A B4 
+F9 3A 3B 97 9D D9 AF C7 E3 F1 2D F1 E8 0B 3F EE 
+F7 7B 77 BB DD 24 02 09 88 80 48 02 22 20 92 80 
+08 88 24 20 02 22 09 88 80 08 88 80 48 02 22 20 
+92 80 08 88 24 20 02 22 09 88 80 08 88 80 48 02 
+22 20 DE BA 5E AF DD E5 72 F9 13 9E 0B 48 A0 70 
+
+Read Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:14bytes
+01 03 04 00 37 EC 7C 89 00 00 00 00 00 00 
+
+Head:
+  TypeNumber:0x01030400
+  ID:0x37EC7C89
+
+Packet:EmptyPacket
+contacts:0 items
+
+Read Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:14bytes
+01 04 05 00 14 79 37 F6 00 00 00 00 00 00 
+
+Head:
+  TypeNumber:0x01040500
+  ID:0x147937F6
+
+Packet:EmptyPacket
+groups:0 items
+
+Read Packet End
+---------------->
+
+<----------------
+Write Packet Start
+
+Packet:EmptyPacket
+
+Head:
+  TypeNumber:0x01010400
+  ID:0xBAF752C8
+
+Data:8bytes
+01 01 04 00 BA F7 52 C8 
+
+Write Packet End
+---------------->
+
+<----------------
+Read Packet Start
+
+Data:10bytes
+01 01 04 00 BA F7 52 C8 00 00 
+
+Head:
+  TypeNumber:0x01010400
+  ID:0xBAF752C8
+
+Packet:EmptyPacket
+
+Read Packet End
+---------------->
+
