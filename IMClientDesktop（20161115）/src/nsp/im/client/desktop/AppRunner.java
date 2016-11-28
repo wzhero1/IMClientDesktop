@@ -42,11 +42,11 @@ public class AppRunner {
 		}));
 
 	//String ip = "127.0.0.1";
-//		String ip = "111.204.219.246";
+		String ip = "111.204.219.246";
 //		String ip = "10.10.4.254";//’˝ ΩIP
-		String ip = "10.10.30.136";//” œ‰◊¢≤·µÿ÷∑
-//		int port = 16069;
-		int port = 16068;//≤‚ ‘”√
+//		String ip = "10.10.30.136";//” œ‰◊¢≤·µÿ÷∑
+		int port = 16069;
+//		int port = 16068;//≤‚ ‘”√
 	//	File historyPath = new File("path.dat");
 		//String dir = "D:\\Task\\IMClientDesktopIdea(0829)\\IM Files";
 		String dir = "IM Files";

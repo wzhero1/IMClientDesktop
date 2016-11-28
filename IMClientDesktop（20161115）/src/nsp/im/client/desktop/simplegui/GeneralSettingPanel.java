@@ -45,7 +45,7 @@ public class GeneralSettingPanel extends RoundPanel {
 
         constraints.gridx = 1;
         constraints.weightx = 6;
-        String text[] = {"文件管理"};
+        String text[] = {"文件管理", "账号改绑"};
         JLabel fManageLabel = new JLabel();
         fManageLabel.setFont(fManageLabel.getFont().deriveFont(18f));
         fManageLabel.setText(text[0]);
@@ -78,6 +78,40 @@ public class GeneralSettingPanel extends RoundPanel {
         clearLog.setFont(new Font("黑体", Font.BOLD, 14));
         add(clearLog, constraints);
 
+        constraints.gridx = 1;
+        constraints.gridy = 2;
+        constraints.weightx = 6;
+        JLabel changeAccountBind = new JLabel();
+        changeAccountBind.setFont(changeAccountBind.getFont().deriveFont(18f));
+        changeAccountBind.setText(text[1]);
+        add(changeAccountBind, constraints);
+
+        constraints.gridx = 2;
+        constraints.weightx = 1;
+        JTextField authCode = new JTextField();
+        authCode.setColumns(10);
+        add(authCode, constraints);
+
+        constraints.gridx = 3;
+        constraints.weightx = 8;
+        constraints.insets = new Insets(0,-40,0,0);
+        constraints.anchor = GridBagConstraints.WEST;
+        JButton changeAccountCommit = RoundButton.createNormalButton();
+        changeAccountCommit.setText("获取验证码");
+        changeAccountCommit.setToolTipText("按Enter键发送消息，按Ctrl+Enter键换行");// 20160518;
+        changeAccountCommit.setFont(new Font("黑体", Font.BOLD, 14));
+        changeAccountCommit.setPreferredSize(new Dimension(100, 25));//设置按钮大小
+        constraints.insets = new Insets(20, -150, 0, 0);
+        add(changeAccountCommit, constraints);
+
+        constraints.gridx = 2;
+        constraints.gridy = 3;
+        constraints.insets = new Insets(20,0,0,0);
+        JButton changeCommit = RoundButton.createNormalButton();
+        changeCommit.setText("确认修改");
+        changeCommit.setToolTipText("按Enter键发送消息，按Ctrl+Enter键换行");// 20160518;
+        changeCommit.setFont(new Font("黑体", Font.BOLD, 14));
+        add(changeCommit, constraints);
 
         clearLog.addMouseListener(new MouseAdapter() {
             @Override

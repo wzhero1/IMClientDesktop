@@ -1,0 +1,30 @@
+2016-11-28T10:35:58.349+0800  SEVERE  Unhandled exception
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Not connected
+	at nsp.common.future.Eventual$13.invoke(Eventual.java:412)
+	at nsp.common.future.Eventual$13.invoke(Eventual.java:1)
+	at nsp.common.future.EventualMini$3.run(EventualMini.java:104)
+	at nsp.common.RecursiveRunner.run(RecursiveRunner.java:27)
+	at nsp.common.future.EventualMini.setValue(EventualMini.java:101)
+	at nsp.common.future.Promise.setValue(Promise.java:39)
+	at nsp.proto.io.TCPConnection$3.completed(TCPConnection.java:114)
+	at nsp.proto.io.TCPConnection$3.completed(TCPConnection.java:1)
+	at sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:126)
+	at sun.nio.ch.Invoker$2.run(Invoker.java:218)
+	at sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Not connected
+	at nsp.proto.io.TCPConnection.read(TCPConnection.java:109)
+	at nsp.proto.io.StreamRawPacketIO.readFully(StreamRawPacketIO.java:124)
+	at nsp.proto.io.StreamRawPacketIO.readOne(StreamRawPacketIO.java:96)
+	at nsp.proto.io.StreamRawPacketIO.access$6(StreamRawPacketIO.java:92)
+	at nsp.proto.io.StreamRawPacketIO$1.invoke(StreamRawPacketIO.java:56)
+	at nsp.proto.io.StreamRawPacketIO$1.invoke(StreamRawPacketIO.java:1)
+	at nsp.common.future.Eventual$4.invoke(Eventual.java:103)
+	at nsp.common.future.Eventual$4.invoke(Eventual.java:1)
+	at nsp.common.future.Eventual$10.invoke(Eventual.java:239)
+	at nsp.common.future.Eventual$10.invoke(Eventual.java:1)
+	at nsp.common.future.EventualMini$1.invoke(EventualMini.java:47)
+	... 12 more
+

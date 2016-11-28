@@ -22,21 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AppRunner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/AppRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="100">
+              <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="48" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatDisplayArea.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatDisplayArea.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/chatarea/ChatDisplayArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="143" column="21" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+            <state relative-caret-position="1683">
+              <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -47,7 +47,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14700">
               <caret line="526" column="12" selection-start-line="526" selection-start-column="12" selection-end-line="526" selection-end-column="12" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2593#2594#0" expanded="false" />
+                <element signature="e#2610#2611#0" expanded="false" />
+                <element signature="e#18209#18210#0" expanded="false" />
+                <element signature="e#18244#18245#0" expanded="false" />
+                <element signature="e#18309#18310#0" expanded="false" />
+                <element signature="e#18345#18346#0" expanded="false" />
+                <element signature="e#20409#20410#0" expanded="false" />
+                <element signature="e#20428#20429#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +67,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15210">
               <caret line="538" column="12" selection-start-line="538" selection-start-column="12" selection-end-line="538" selection-end-column="12" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2318#2319#0" expanded="false" />
+                <element signature="e#2335#2336#0" expanded="false" />
+                <element signature="e#19945#19946#0" expanded="false" />
+                <element signature="e#19964#19965#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,11 +90,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/nsp/im/client/desktop/simplegui/LoginPanel.java" />
         <option value="$PROJECT_DIR$/src/nsp/im/client/desktop/chatarea/ChatDisplayArea.java" />
-        <option value="$PROJECT_DIR$/src/nsp/im/client/desktop/AppRunner.java" />
         <option value="$PROJECT_DIR$/packetA.dbg" />
         <option value="$PROJECT_DIR$/src/nsp/im/client/desktop/simplegui/GetPasswordPanel.java" />
         <option value="$PROJECT_DIR$/src/nsp/im/client/desktop/simplegui/SignupPanel.java" />
         <option value="$PROJECT_DIR$/packetB.dbg" />
+        <option value="$PROJECT_DIR$/src/nsp/im/client/desktop/AppRunner.java" />
       </list>
     </option>
   </component>
@@ -98,7 +114,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1932" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -126,8 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,16 +150,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IMClientDesktop（20161115）" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IMClientDesktop（20161115）" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.classpath" />
+    <property name="last_opened_file_path" value="D:/Task/IMWorkSpace/IMClientDesktop/src" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../IM/IMClientDesktop（20161112）/src" />
+    <property name="two.files.diff.last.used.folder" value="D:/Task/IMWorkSpace/IMClientDesktop/src" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="SearchEverywhereHistoryKey" value="ge&#9;FILE&#9;file://D:/Task/IMClientDesktop（20161110）/src/nsp/im/client/desktop/simplegui/GetPasswordPanel.java&#10;Chat&#9;PSI&#9;JAVA://nsp.im.client.desktop.chatarea.ChatDisplayArea" />
   </component>
@@ -610,11 +636,12 @@
       <workItem from="1478941516781" duration="7203000" />
       <workItem from="1479191583707" duration="850000" />
       <workItem from="1479263236880" duration="61000" />
+      <workItem from="1480300021825" duration="544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20006000" />
+    <option name="totallyTimeSpent" value="20550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,8 +653,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -641,7 +668,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -696,7 +723,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14700">
           <caret line="526" column="12" selection-start-line="526" selection-start-column="12" selection-end-line="526" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2593#2594#0" expanded="false" />
+            <element signature="e#2610#2611#0" expanded="false" />
+            <element signature="e#18209#18210#0" expanded="false" />
+            <element signature="e#18244#18245#0" expanded="false" />
+            <element signature="e#18309#18310#0" expanded="false" />
+            <element signature="e#18345#18346#0" expanded="false" />
+            <element signature="e#20409#20410#0" expanded="false" />
+            <element signature="e#20428#20429#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -704,7 +741,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15210">
           <caret line="538" column="12" selection-start-line="538" selection-start-column="12" selection-end-line="538" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#19945#19946#0" expanded="false" />
+            <element signature="e#19964#19965#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/AppRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/chatarea/ChatDisplayArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/simplegui/SignupPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14700">
+          <caret line="526" column="12" selection-start-line="526" selection-start-column="12" selection-end-line="526" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2593#2594#0" expanded="false" />
+            <element signature="e#2610#2611#0" expanded="false" />
+            <element signature="e#18209#18210#0" expanded="false" />
+            <element signature="e#18244#18245#0" expanded="false" />
+            <element signature="e#18309#18310#0" expanded="false" />
+            <element signature="e#18345#18346#0" expanded="false" />
+            <element signature="e#20409#20410#0" expanded="false" />
+            <element signature="e#20428#20429#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/simplegui/GetPasswordPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15210">
+          <caret line="538" column="12" selection-start-line="538" selection-start-column="12" selection-end-line="538" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#19945#19946#0" expanded="false" />
+            <element signature="e#19964#19965#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -728,7 +819,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15780">
           <caret line="526" column="12" selection-start-line="526" selection-start-column="12" selection-end-line="526" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2593#2594#0" expanded="false" />
+            <element signature="e#2610#2611#0" expanded="false" />
+            <element signature="e#18209#18210#0" expanded="false" />
+            <element signature="e#18244#18245#0" expanded="false" />
+            <element signature="e#18309#18310#0" expanded="false" />
+            <element signature="e#18345#18346#0" expanded="false" />
+            <element signature="e#20409#20410#0" expanded="false" />
+            <element signature="e#20428#20429#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -736,7 +837,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15210">
           <caret line="538" column="12" selection-start-line="538" selection-start-column="12" selection-end-line="538" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#19945#19946#0" expanded="false" />
+            <element signature="e#19964#19965#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -774,7 +881,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11130">
           <caret line="443" column="12" selection-start-line="443" selection-start-column="12" selection-end-line="443" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2593#2594#0" expanded="false" />
+            <element signature="e#2610#2611#0" expanded="false" />
+            <element signature="e#18209#18210#0" expanded="false" />
+            <element signature="e#18244#18245#0" expanded="false" />
+            <element signature="e#18309#18310#0" expanded="false" />
+            <element signature="e#18345#18346#0" expanded="false" />
+            <element signature="e#20409#20410#0" expanded="false" />
+            <element signature="e#20428#20429#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,7 +906,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9990">
           <caret line="406" column="18" selection-start-line="406" selection-start-column="18" selection-end-line="406" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#19945#19946#0" expanded="false" />
+            <element signature="e#19964#19965#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -807,14 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/AppRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/IMClientModel.jar!/nsp/im/client/model/AuthManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -826,7 +941,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15210">
           <caret line="538" column="12" selection-start-line="538" selection-start-column="12" selection-end-line="538" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#19945#19946#0" expanded="false" />
+            <element signature="e#19964#19965#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -834,7 +955,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14700">
           <caret line="526" column="12" selection-start-line="526" selection-start-column="12" selection-end-line="526" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2593#2594#0" expanded="false" />
+            <element signature="e#2610#2611#0" expanded="false" />
+            <element signature="e#18209#18210#0" expanded="false" />
+            <element signature="e#18244#18245#0" expanded="false" />
+            <element signature="e#18309#18310#0" expanded="false" />
+            <element signature="e#18345#18346#0" expanded="false" />
+            <element signature="e#20409#20410#0" expanded="false" />
+            <element signature="e#20428#20429#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,8 +985,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/chatarea/ChatDisplayArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="143" column="21" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+        <state relative-caret-position="1683">
+          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nsp/im/client/desktop/AppRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="48" selection-end-column="4" />
           <folding />
         </state>
       </provider>
